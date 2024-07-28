@@ -13,7 +13,7 @@ def create_database():
         
         # Create database
         db_name = 'alx_book_store'
-        create_db_query = f"CREATE DATABASE IF NOT EXISTS {db_name}"
+        create_db_query = "CREATE DATABASE IF NOT EXISTS alx_book_store"
         
         cursor.execute(create_db_query)
         print(f"Database '{db_name}' created successfully!")
