@@ -21,4 +21,4 @@ order_date DATEorder_id INT", "customer_id INT", "FOREIGN KEY (customer_id) REFE
 CREATE TABLE Order_Details(orderdetailid (PRIMARY KEY)
 order_id (FOREIGN KEY referencing Orders TABLE)
 book_id (FOREIGN KEY referencing Books TABLE)
-quantity DOUBLE)
+quantity DOUBLEbook_id INT", "FOREIGN KEY (order_id) REFERENCES Orders(order_id)", "FOREIGN KEY (book_id) REFERENCES Books(book_id))
