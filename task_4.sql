@@ -14,3 +14,5 @@ SELECT
     EXTRA 
 FROM 
     INFORMATION_SCHEMA.COLUMNS, TABLE_NAME = 'Books'
+WHERE
+    TABLE_SCHEMA = 'alx_book_store'
