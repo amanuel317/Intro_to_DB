@@ -14,7 +14,7 @@ customer_name VARCHAR(215)
 email VARCHAR(215)
 address TEXT )
 
-CREATE TABLE Orders (order_id (PRIMARY KEY)
+CREATE TABLE Orders(order_id (PRIMARY KEY)
 customer_id (FOREIGN KEY referencing Customers TABLE)
 order_date DATE)
 
